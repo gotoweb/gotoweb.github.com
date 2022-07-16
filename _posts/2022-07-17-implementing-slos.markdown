@@ -87,7 +87,7 @@ http_request_duration_seconds{host="api", le="0.4"}
 
 ### 💡 실습 1: 히스토그램 결과 확인
 
-![](image/2022-07-17-practice-1.png)
+![](images/2022-07-17-practice-1.png)
 
 위 결과를 해석해보면, 지연시간(s)이
 
@@ -137,9 +137,9 @@ histogram_quantile(0.99, rate(http_request_duration_seconds_bucket[7d]))
 
 nginx 인그레스 컨트롤러로 몇번의 요청을 보내고 나면, 일정 주기(15초) 이후 메트릭이 수집된다.
 
-![](image/2022-07-17-practice-2.png)
+![](images/2022-07-17-practice-2.png)
 
-![](image/2022-07-17-practice-3.png)
+![](images/2022-07-17-practice-3.png)
 
 ```graphql
 histogram_quantile(0.9,(rate(nginx_ingress_controller_request_duration_seconds_bucket{status="200"}[1d])))
