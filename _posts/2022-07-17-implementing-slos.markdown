@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "The Site Reliability Workbook - Implementing SLOs 발번역 (실습을 곁들인)"
+date:   2022-07-17 02:35:11 +0900
+categories: SRE
+---
+
 구글이 만든 SRE 책 중, [The Site Reliability Workbook](https://sre.google/workbook/table-of-contents/) 책은 아직 번역되지 않았는데, 프로메티우스 공부를 위해 이 책이 큰 도움이 된다는 사실을 알았습니다. 특히, [Chapter 2 - Implementing SLOs](https://sre.google/workbook/implementing-slos/) 의 일부분이 매우 유용하여, 필요하 부분만 번역해보았습니다. 중간중간 구글 번역의 힘을 빌려서 문체가 다를 수 있습니다.
 
 또한, 프로메테우스 실습 과정을 추가적으로 첨부했습니다. _실습 n_ 으로 표시됩니다.
