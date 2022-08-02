@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "NAT Gateway 대신 VPC Endpoint를 이용하기 (1)"
-date:   2022-08-02 14:02:00 +0900
+date:   2022-08-02 18:02:00 +0900
 categories: AWS
 ---
 
