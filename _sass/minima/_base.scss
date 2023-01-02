@@ -149,21 +149,23 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
+  border: 1px solid rgb(208, 208, 208);
   border-radius: 3px;
-  // background-color: #eef;
   font-family: $fixed-font-family;
 }
 
 code {
   padding: 1px 5px;
+  background-color: #ebf2fe;
 }
 
 pre {
   padding: 8px 12px;
   overflow-x: auto;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.05);
 
   > code {
+    background: rgb(247, 250, 255);
     border: 0;
     padding-right: 0;
     padding-left: 0;
